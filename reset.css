@@ -1,0 +1,69 @@
+body
+{
+    font-size:100%;
+    margin:0px;
+    padding:0px;
+    background-color:white;
+}
+html,body
+{
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+div, p, span,table, td, tr, img,a,blockquote,pre,code,strong,b,u,i,strike,input,textarea,button,nav,menu,section,video,audio,h1,h2,h3,h4,h5,h6
+{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+	color:black;
+	border:none;
+	line-height:1;
+	font-family: arial;
+	font-weight:normal;
+}
+li
+{
+	list-style:none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div,p,table,img,blockquote,pre,code
+{
+	margin:5px;
+}
+strong
+{
+	font-weight:bold;
+}
+strike
+{
+	text-decoration:strike;
+}
+h1
+{
+    font-size: 6.854em;
+}
+h2
+{
+    font-size: 4.236em;
+}
+h3
+{
+    font-size: 2.618em;
+}
+h4
+{
+    font-size: 1.618em;
+}
+h5
+{
+    font-size: 1.5em;
+}
+h6
+{
+    font-size: 1.25em;
+}
