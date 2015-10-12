@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var rules = document.getElementById("rules");
     var about = document.getElementById("about");
     
+    //Show / hide rules
     rulesMenu.addEventListener('click',function(){
+        about.style.display  = 'none';
         if(rules.style.display == 'none' || rules.style.display == '' )
         {
             rules.style.display = 'block';
@@ -16,8 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });    
     
+    //Show / hide about
     aboutMenu.addEventListener('click',function(){
-        console.log('click!');
+        rules.style.display  = 'none';
         if(about.style.display == 'none' || about.style.display == '' )
         {
             about.style.display = 'block';
